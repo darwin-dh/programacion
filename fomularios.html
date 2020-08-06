@@ -1,0 +1,34 @@
+<html>
+    <head>
+    	<title>Formularios</title>
+	</head>
+	<body>
+		<form action="" method="get">
+			<label>Formulario de registro</label>
+			<p>Ingrese su nombre</p>
+			<input type="text" maxlength="7" placeholder="Ingrese su nombre" name="nombre" disabled><br> <br>
+			<input type="number" maxlength="3" placeholder="Ingrese su edad" name="edad"required><br> <br>
+			<input type="email" maxlength="15" placeholder="Ingrese su correo" required name="correo"><br> <br>
+			<input type="password" maxlength="8" placeholder="Ingrese su clave" required name="clave"> <br> <br>
+			<input type="number" placeholder="Ingrese telefono" required name="telefono"><br><br>
+			<button type="submit">Registrar</button><br><br>
+			<button type="reset">Borrar todo</button>
+		</form>	
+		<form action="" method="post">
+			<select>
+				<option>Selecione un pais</option>
+				<option value="Ecuador - quito">Ecuador</option>
+				<option value="Peru">Peru</option>
+				<option value="Colombia">Colombia</option>
+			</select>	
+			<br>
+			<input type="radio" name="1"><label>Opcion 1</label>
+			<input type="radio" name="1"><label>Opcion 2</label><br>
+			<input type="checkbox" name="f"><label>Narajan</label>
+			<input type="checkbox" name="u"><label>Uvas</label>
+			<input type="checkbox" name="p"><label>Peras</label>
+			<input type="checkbox" name="check"><label>Acepta terminos y condicines</label>	<br>
+			<button type="submit">Enviar</button>
+		</form>	
+	</body>	
+</html>

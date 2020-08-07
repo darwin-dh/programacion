@@ -1,0 +1,52 @@
+h1 {
+
+color:red;
+
+}
+h2 {
+	
+color:green;
+
+}
+/*a las clase se llaman con un .nombre_clase*/
+.darwin {
+ 	/*color = color de letra*/
+	color:#000;
+	/*font size = tamaño de letra*/
+	font-size: 30px;
+	/*font-family = tipo letra*/
+	font-family: open-sans;
+	/*margin = margen*/
+	margin:20px;
+	/*padding = margen interno: superior iziquiero*/
+	padding: 30px 40px;
+	/*maregin-left = margen izquiero: PX O %*/
+	margin-left:100px; 
+	/*margin-top = margen superior:px o %*/
+	margin-top:100px;
+}
+.fondo_abode{
+	/*background = fondo*/
+	background:#d20962;
+}
+.fondo_youtube{
+	background:#ff0000;
+}
+.fondo_twitter{
+	background:#1da1f2;
+}
+
+.bordes {
+	border: outset 4px #ff00ff;
+	border-radius:15px;
+}
+/*llamar id con #nombre_id*/
+#unico{
+	color:#fff;
+	background:#0099e5;
+	font-size:20px;
+	width: 100px;
+	height: 50px;
+	padding: 40px 40px;
+	border-radius: 10px;
+}

@@ -1,0 +1,75 @@
+p{
+	color: #2214;
+}
+.text{
+	color: blue;
+}
+
+div  p{
+	font-size: 50px;
+}
+div > h2{
+	font-size: 30px;
+}
+div article a{
+	color: #000;
+}
+/*, = tambien*/
+p,h2,a{
+	border: 1px solid;
+}
+.main .conetido .titulo{
+	border-radius: 5px;
+	align-items: center;
+	padding: 10px 20px;
+	font-weight: 300px;
+}
+.main .contenido .parrafos{
+	background: red;
+}
+.main p{
+	background: #d2d200;
+}
+form{
+	max-width: 400px;
+	height: 300px;
+	border-radius: 5px;
+	border: 1px;
+	background: #c2c2c2;
+	margin:auto;
+
+
+}
+input[type]{
+	border-radius: 5px;
+	margin-bottom: 25px;
+	width: 90%;
+	margin: auto;
+	padding: 5px 5px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+input[type="password"]{
+
+	background: red;	
+}
+input[type="text"]{
+	
+	  margin: auto;
+	  margin-bottom: 20px;
+}
+#noticias {
+	
+background: #f2f200;
+width: 400px;
+height: 50px;
+overflow: hidden;
+/*display :convierte a los elemetos en flexifles;*/
+display: flex;
+direction:column;
+}
+#noticias #informes #articulos{
+	font-size: 15px;
+	font-weight: 20;
+	color: #000;
+}

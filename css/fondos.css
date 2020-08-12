@@ -1,0 +1,10 @@
+body{
+/*background-color: red;*/
+/*background-image: url(../img/imagen2.jpg);*/
+background: url(../img/imagen2.jpg),#49a3d6;
+background-repeat: no-repeat;
+background-position:center;
+background-size: 600px;
+max-height: 400px;
+
+}

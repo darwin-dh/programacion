@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+/*tipos posicionamientos*/
+/*
+---nornal(static):posicionamientos por defecto
+---relativo(relative):nos permite posicinar una caja 
+e despues moverla desde lugar incial ;
+---abosluto(absolute): nos permite posicionar 
+una caja respecto a contenedor y del resto de los elemetos 
+ignora nueva posicion
+---fija(fixed): nos permite posicionar una caja 
+fija para el usuario;
+---flotante(float):nos permite posicionar un 
+caja de madera flotante asi la derecha o izquiera
+
+
+*/
+.padre{
+	margin: 20px;
+	background: #2e294e;
+	width: 500px;
+	height: 500px;
+	position:relative;
+
+}
+.caja{
+	width: 200px;
+	height: 200px;
+	background: #371777;
+	margin: 20px;
+	color: #fff;
+}
+.posicion{
+	position:relative;
+	
+}
+.derecha{
+	float: right;
+}
+.izquierda{
+	float: left;
+}

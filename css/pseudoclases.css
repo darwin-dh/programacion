@@ -1,0 +1,80 @@
+/*a{
+	background: #00a4e4;
+	padding: 20px 20px;
+	font-size: 20px;
+	text-decoration: none;
+}*/
+/*
+a:hover{
+	background: rgba(0,0,50,0.8);
+	color: #ffffff;
+	font-size: 20px;
+	border-radius: 5px;
+}*/
+/*
+a:active{
+	background: #000;
+}
+a:visited{
+	background: blue;
+}
+.click:hover{
+	background:#ff0b00; 
+	font-family: arial;
+}*/
+body{
+background:url(../img/imagen1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+max-height: 200px;
+height: 200px;
+}
+
+
+.iconos{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding:60px 0;
+	width: 100%;
+	border-radius: 10px;
+
+
+}
+.iconos .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	
+
+}
+.iconos .contenedor a{
+	color: #fff;
+	width:100px; 
+	text-align: center;
+	font-size: 30px;
+	padding: 15px 0;
+	border-radius: 5px;
+	display: inline-block;
+
+}
+.iconos .contenedor .sass:hover{
+	background: #da1884;
+}
+.iconos .contenedor .git:hover{
+	background:#6cc644;
+}
+.iconos .contenedor .html:hover{
+	background: #e34f26;
+
+}
+.iconos .contenedor .css:hover{
+	background: #0389ff;
+
+}
+.iconos .contenedor .js:hover{
+	background: #f7df1e;
+
+}
+
+
+
+

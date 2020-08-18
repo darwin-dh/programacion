@@ -92,14 +92,14 @@ h2{
   padding: 60px 0;
 }
 .caja1{
-  width: 300px;
+  width: 30%;
   height: 500px;
   background: #fc0101;
   margin: 0;
   float: left;
 }
 .caja2{
-  width: 300px;
+  width: 30%px;
   height: 500px;
   background: #fc0101;
   margin: 0px;
@@ -107,7 +107,7 @@ h2{
 }
 .caja3{
   background: #063180;
-  width: 1220px;
+  width: 60%px;
   height: 380px;
   padding: 60px 0;
 }

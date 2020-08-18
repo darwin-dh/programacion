@@ -1,0 +1,138 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+}
+.container {
+    background: #c2c2c2;
+    width: 1000px;
+    margin: auto;
+}
+header {
+    background: #F77F00;
+    padding: 20px;
+    text-align: center;
+    font-weight: lighter;
+}
+.aside1{
+  background: #D62828;
+  width: 300px;
+  padding: 20px;
+  float: left;
+}
+.main {
+    background: #1D3557;
+    padding: 40px;
+    width: 400px;
+    float: left;
+}
+
+.aside2 {
+    background: #D62828;
+    padding: 20px;
+    width: 300px;
+    float: left;
+}
+footer {
+    background:#6347FF;
+    padding: 20px;
+    clear: both;
+    text-align: center;
+}
+
+**/
+/*
+table {
+    background: #f2f2f2;
+    width: 1000px;
+    height: 400px;
+
+}
+.fila1 td {
+    background: #F77F00;
+    width: 1000px;
+}
+.fila2 .td1 {
+    width: 300px;
+    background: #D62828;
+}
+.fila2 .td2 {
+    width: 400px;
+    background: #1D3557;
+}
+.fila2 .td3 {
+    width: 300px;
+    background: #D62828;
+}
+
+.fila3 {
+  background: #000;
+  color: #fff;
+  width: 1000px;
+}
+*/
+*{
+  margin:0;
+  padding: 0;
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+  color:#fff;
+}
+.arriba{
+  background: #ff891a;
+  padding: 60px 0;
+}
+.caja1{
+  width: 300px;
+  height: 500px;
+  background: #fc0101;
+  margin: 0;
+  float: left;
+}
+.caja2{
+  width: 300px;
+  height: 500px;
+  background: #fc0101;
+  margin: 0px;
+  float: right;
+}
+.caja3{
+  background: #063180;
+  width: 1220px;
+  height: 380px;
+  padding: 60px 0;
+}
+
+.abajo{
+  background: #735ae2;
+  padding: 60px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/

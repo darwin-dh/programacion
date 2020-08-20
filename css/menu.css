@@ -16,6 +16,9 @@ body {
     margin: auto;
     width: 90%;
     max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
 header {
@@ -49,7 +52,7 @@ header .menu a:hover {
   margin-top: 20px;
   background: #fff;
   padding:20px;
-  width: 100%;
+  width: 70%;
 }
 .main article .imagen img{
   width:100%;
@@ -65,8 +68,21 @@ header .menu a:hover {
   font-size: 15px;
   font-weight: normal;
 }
-
-
+.aside1{
+  margin-top:20px;
+  width: 30%;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+.aside1 .ad{
+  background:maroon;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+}
 
 
 

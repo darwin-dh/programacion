@@ -10,7 +10,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
+    background-attachment: fixed;
 }
 .contenedor {
     margin: auto;
@@ -18,14 +18,12 @@ body {
     max-width: 1000px;
 
 }
-
 header {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-
 }
 header .logo img {
     width: 150px;
@@ -42,11 +40,53 @@ header .menu a {
     border-bottom: 2px solid transparent;
     padding: 8px;
 }
-header  .menu a:hover {
-    border-bottom: 2px solid ;
+header .menu a:hover {
+    border-bottom: 2px solid;
 }
 
-/**main**/
-section .texto .conteneto-texto p,h1{
+/**==========main==========**/
+.main{
+  margin-top: 20px;
+  background: #fff;
+  padding:20px;
+  width: 100%;
+}
+.main article .imagen img{
+  width:100%;
 
 }
+.main article h2{
+  margin-bottom:20px;
+  font-weight: bold;
+  font-size: 32px;
+}
+.main article p{
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*fin*/

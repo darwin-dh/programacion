@@ -1,0 +1,40 @@
+.caja1{
+  background: red;
+  width: 1000px;
+  height: 60px;
+  margin-top: 60px;
+  margin-left: 100px;
+  padding: 10px;
+  }
+ .caja2{
+  background: purple;
+  width: 700px;
+  height: auto;
+  margin-left: 100px;
+  margin-top: 0px;
+
+}
+  .caja3{
+  background: deepskyblue;
+  width: 300px;
+  height: 400px;
+  margin-top: -500px;
+  margin-left: 800px;
+}
+.footer{
+  background: orange;
+  width: 1000px;
+  height: 100px;
+  margin-left: 100px;
+  margin-top:0px;
+}
+#img{
+  width: 400px;
+}
+a{
+  color:white;
+  margin-left: 20px;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 18px;
+}

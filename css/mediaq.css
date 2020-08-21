@@ -1,0 +1,33 @@
+body {
+    background: deepskyblue;
+}
+
+
+
+
+
+/***medias query al terminar de dar estilos al sito***/
+@media screen and (max-width:800px) {
+    /*aqui dentro van los estilos*/
+    body {
+        background: dodgerblue;
+    }
+    /**fin estilos**/
+}
+@media screen and (max-width:600px) {
+    /****estilos aqui***/
+    body {
+        background: royalblue;
+    }
+    /**fin de los estilos**/
+}
+@media screen and (max-width:300px) {
+    /****estilos aqui***/
+    body {
+      background: midnightblue;
+        }
+
+    /**fin de los estilos**/
+}
+
+/***/

@@ -58,6 +58,24 @@ header nav ul li a:hover {
 .main .post {
   padding: 20px;
 }
+.main .icono{
+  padding: 20px;
+  background: #075e54;
+  position: fixed;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.main .icono a{
+  color: #fff;
+  font-size: 20px;
+}
+.main .icono:hover{
+background: #25d366;
+color:#000;
+}
 .main .post article h2{
   margin-bottom: 20px;
   font-weight: 500;

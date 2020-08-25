@@ -48,6 +48,7 @@ footer{
   width: 50%;
   background: #0096c7;
 }
+
 @media screen and (max-width:600px){
 .aside1{
   width: 100%;

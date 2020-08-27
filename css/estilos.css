@@ -4,13 +4,14 @@ color:red;
 
 }
 h2 {
-	
+
 color:green;
 
 }
 /*a las clase se llaman con un .nombre_clase*/
 .darwin {
  	/*color = color de letra*/
+
 	color:#000;
 	/*font size = tamaño de letra*/
 	font-size: 30px;
@@ -21,7 +22,7 @@ color:green;
 	/*padding = margen interno: superior iziquiero*/
 	padding: 30px 40px;
 	/*maregin-left = margen izquiero: PX O %*/
-	margin-left:100px; 
+	margin-left:100px;
 	/*margin-top = margen superior:px o %*/
 	margin-top:100px;
 }

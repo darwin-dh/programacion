@@ -1,0 +1,56 @@
+body{
+  background: #fff;
+  font-size: 20px;
+}
+header {
+
+}
+header .logo {
+
+}
+header nav{
+
+}
+.main .caja1{
+  background: red;
+  width: 400px;
+  height: 400px;
+}
+.main .caja1 .caja2{
+  background: blue;
+  margin:20px;
+  width: 300px;
+  height: 300px;
+}
+.main .caja1 .caja2 .caja3{
+background: yellow;
+text-align: center;
+padding: 20px;
+font-size: 25px;
+color: #fff;
+}
+
+.main .caja1 .caja2 .caja3 p:hover{
+  background: red;
+  padding: 10px 0;
+}
+.main .caja1 .texto p{
+  color:#fff;
+  font-size: 3rem;
+}
+p{
+  background :red ;
+}
+
+
+
+
+
+/**definicion de colores**/
+.colorgreen{
+color:green;
+}
+/**tamaños de letra**/
+.fuente50{
+  font-size: 50px;
+}
